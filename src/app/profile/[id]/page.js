@@ -30,10 +30,10 @@ export default async function Page({params}) {
         return(
             <>
                 <div>
-                    <p className="mx-auto flex w-[360] items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">Welcome to {userInfo.rows[0].username}'s page</p>
+                    <p className="mx-auto flex w-[360] items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">Welcome to {userInfo.rows[0].username}&apos;s page</p>
                     <Image className="m-5 rounded-full shadow-black shadow-md" src={user.imageUrl} height={200} width={200} alt="Your profile picture"/>
                     <br/>
-                    <p className="w-[270] rounded-br-lg bg-white gap-2 p-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">{userInfo.rows[0].username}'s Bio:</p>
+                    <p className="w-[270] rounded-br-lg bg-white gap-2 p-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">{userInfo.rows[0].username}&apos;s Bio:</p>
                     <br/>
                     <p className="w-[240] rounded-br-lg bg-white gap-2 p-4 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">{userInfo.rows[0].bio}</p>
                 </div>
