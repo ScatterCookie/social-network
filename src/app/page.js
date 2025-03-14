@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "@radix-ui/themes/styles.css";
 import MyApp from "./components/Radix";
 
